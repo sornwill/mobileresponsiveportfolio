@@ -1,4 +1,12 @@
+body{
+    background-color: black;
+}
 
-a{
+a, h1, p{
     color: white;
+}
+
+img {
+    height: 250px;
+    width: 200px;
 }
