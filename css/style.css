@@ -1,9 +1,18 @@
 body{
-    background-color: black;
+    background-color:black;
+    font-size: 18px;
+    line-height: 27px;
 }
 
-a, h1, p{
+h1,h2,h3,h4{ 
     color: white;
+}
+
+
+
+a,p{
+    color: white;
+    font-size: 18px;
 }
 
 img {
@@ -11,7 +20,35 @@ img {
     width: 200px;
 }
 
-#about-me{
-    border: 10px white;
+footer {
+    position: fixed;
+    left: 0;
+    bottom: 0;
+    width: 100%;
+    color: white;
+    text-align: center;
+    background-color: #343A40;
+    padding-top: 20px;
+    border-top: 1px solid white;
+  }
+
+.linktabs{
+    border: 1px solid white;
+    padding: 25px 25px 25px 25px;
+    margin-top: 40px;
+    background-color: #343A40;
 }
-}
+
+@media screen and (max-width: 168px) {
+    body {
+      background-color: #333;
+    }
+  
+    .wrapper {
+      /* Box-model */
+      width: 100%;
+      padding: 20px;
+    }
+  
+  }
+  
